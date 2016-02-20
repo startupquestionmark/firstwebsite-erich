@@ -1,0 +1,35 @@
+.image_size {
+	height: 200px;
+	width: 200px;
+	border: 5px solid blue;
+	margin: 20px left;
+	display: block;
+	float: right;
+}
+
+section.background h1 {
+	padding: 50px;
+	background: blue;
+	border-radius: 30px;
+	border: 5px dashed red;
+	color:white;s
+	text-align: center;
+}
+
+section.background {
+	float: left;
+	height: 300px;
+}
+.division {
+	margin: 0 auto;
+}
+
+p {
+	color: red;
+	text-align: center;
+}
+
+.background{
+	background-image: url(http://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg);
+	background-size: cover;
+}
