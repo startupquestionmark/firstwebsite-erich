@@ -100,15 +100,18 @@ ul.navbar-menu-items li {
 }
 
 .profile {
+	padding: 40px;
 	margin: 0 auto;
+	height: 220px;
+	width: 500px;
 }
-.profile-item {
-	display: inline-block;
-	margin: auto 0;
-}
+
 .profile-info {
+	float: left;
+	padding: 40px 0;
+	margin-right: 50px;
 }
 
 .profile-image {
-
+	float:right;
 }
