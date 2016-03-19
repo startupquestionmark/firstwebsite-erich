@@ -15,5 +15,10 @@ $(function() {
 	// 	}
 	// }
 
-	$("#mission-statement").show();
+	$('#profile-image').click(function(e) {
+
+		e.preventDefault();
+
+		$("#mission-statement").fadeIn();
+	});
 });
