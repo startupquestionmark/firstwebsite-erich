@@ -92,3 +92,13 @@ section.background {
 .navbar-title {
 	float:left;
 }
+
+ul.navbar-menu-items {
+	list-style: none;
+
+}
+
+ul.navbar-menu-items li {
+	display: inline-block;
+	margin: 0 10px;
+}
