@@ -1,3 +1,12 @@
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+ }
+
 .image_size_1 {
 	height: 100%;
 	width: 100%;
@@ -19,16 +28,25 @@
 
 
 h1 {
-	//*padding: 50px;*//
-	background: blue;
+	margin: 0;
+	padding: 0;
+
 	color: grey;
-	text-align: left;
-	margin-left: 20px;
 	font-family: serif;
 }
 
+p {
+	margin: 0;
+}
+
+a {
+	color: grey;
+	font size: 20px;
+	font-family: sans-serif;
+}
+
 div{
-	//*border: 5px solid blue;*//
+	/*border: 5px solid blue;*/
 }
 
 li {
@@ -57,28 +75,18 @@ section.background {
 	margin: 0 auto;
 }
 
-a {
-	color: grey;
-	font size: 20px;
-	font-family: sans-serif;
-}
-
-p {
-	word-spacing: 20px;
-}
-
 .background{
 	background-image: url(http://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg);
 	background-size: cover;
 }
 
 .navbar-menu {
-	float:right;
+	float: right;
 	margin: auto 0;
 }
 
 .navbar {
-
+	padding: 20px 40px;
 }
 
 .navbar-title {
