@@ -72,7 +72,15 @@ p {
 	background-size: cover;
 }
 
-.menu {
-	margin-top: 25px;
-	margin-right: 20px;
+.navbar-menu {
+	float:right;
+	margin: auto 0;
+}
+
+.navbar {
+
+}
+
+.navbar-title {
+	float:left;
 }
