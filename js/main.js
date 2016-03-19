@@ -21,4 +21,7 @@ $(function() {
 
 		$("#mission-statement").fadeIn();
 	});
+
+	$('#profile-image').draggable();
+	$("#accordion").accordion();
 });
