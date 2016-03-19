@@ -1,35 +1,78 @@
-.image_size {
+.image_size_1 {
+	height: 100%;
+	width: 100%;
+	border: 5px solid blue;
+	margin: 0 auto;
+	display: block;
+}
+
+.image_size_2 {
 	height: 200px;
 	width: 200px;
 	border: 5px solid blue;
-	margin: 20px left;
+	margin: 0 auto;
 	display: block;
-	float: right;
+	border-radius: 200px;
+	overflow: hidden;
+
 }
 
-section.background h1 {
-	padding: 50px;
+
+h1 {
+	//*padding: 50px;*//
 	background: blue;
-	border-radius: 30px;
-	border: 5px dashed red;
-	color:white;s
-	text-align: center;
+	color: grey;
+	text-align: left;
+	margin-left: 20px;
+	font-family: serif;
+}
+
+div{
+	//*border: 5px solid blue;*//
+}
+
+li {
+	margin-right: 40px
+	font-family: sans-serif;
+	list-style-type: none;
 }
 
 section.background {
 	float: left;
 	height: 300px;
 }
+
+.underline {
+	text-decoration: underline solid blue;
+}
+
+.left {
+	margin: left;
+}
+
+.right {
+	margin: right;
+}
 .division {
 	margin: 0 auto;
 }
 
+a {
+	color: grey;
+	font size: 20px;
+	font-family: sans-serif;
+}
+
 p {
-	color: red;
-	text-align: center;
+	word-spacing: 20px;
 }
 
 .background{
 	background-image: url(http://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg);
 	background-size: cover;
+}
+
+.menu {
+	margin-top: 25px;
+	margin-right: 20px;
 }
